@@ -1,0 +1,12 @@
+ sitemaps:
+   example:
+     lastmod: YYYY-MM-DD
+     languages:
+       en:
+         source: /en/query-index.json
+         destination: /sitemap-en.xml
+         hreflang: en
+       fr:
+         source: /it/query-index.json
+         destination: /sitemap-it.xml
+         hreflang: it
