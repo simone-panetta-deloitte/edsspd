@@ -1,6 +1,5 @@
  sitemaps:
    edssp:
-     lastmod: YYYY-MM-DD
      languages:
        en:
          source: /en/query-index.json
