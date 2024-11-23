@@ -102,7 +102,8 @@ const createSelect = withFieldWrapper((fd) => {
     const optionsUrl = new URL(options?.[0]);
     // using async to avoid rendering
     if (optionsUrl.hostname.endsWith('hlx.page')
-    || optionsUrl.hostname.endsWith('hlx.live')) {
+    || optionsUrl.hostname.endsWith('hlx.live') 
+    || optionsUrl.hostname.endsWith('aem.live')) {
       fetch(`${optionsUrl.pathname}${optionsUrl.search}`)
         .then(async (response) => {
           const json = await response.json();
